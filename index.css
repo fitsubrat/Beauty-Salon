@@ -295,7 +295,7 @@ button {
 
 @media screen and (max-width: 768px) {
     .nav {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -304,7 +304,9 @@ button {
     }
 
     .menu ul {
-        flex-direction: column;
+        width: 80%;
+        margin-left: 5vw;
+        flex-direction: row;
         align-items: center;
     }
 
